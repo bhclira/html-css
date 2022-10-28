@@ -1,0 +1,47 @@
+CURSO EM VÍDEO
+
+	HTML5 + CSS | módulo: 002
+
+
+1. Psicologia das Cores | cores são importante nas tomadas de decisão.
+	
+	* conjunto e harmonia de cores que um artefacto tem
+	* escolher uma boa paleta de cores é um diferencial
+		para o sucesso do artefato
+	* empresas de tecnologia optam muito por "azul":
+	* empresas de comida optam por vermelho ou laranja
+	* apenas use contraste branco no fundo preto se houver pouco texto
+	* combinação vermelho com amarelo associa comida e felicidade (mc donald's)
+	* marrom e cinza dar idéia de sanduiches mais premium
+	* marrom tem relação com vermelho e com amarelo, robustez, ideia de luxo com dourado.
+	* verde saúde, natureza, sorte, meio ambiente, turismo, nao usar meninas adolescentes.
+	* site milka, monocromia com roxo em varios tons
+	* rosa: produtos femininos e cosmética.
+	* roxos: não prendem muito a atenção, usado com coisas inovadoras e criativas
+
+2. Repressentando cores com CSS3
+
+	1.1 por nome:
+		| <style="parametro: nome-da-cor">
+
+	1.2 por código hexadecimal:
+		| <style="parâmentro: #0000ff (codigo hexadecimal da cor)">
+		| Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+	1.3 por Gradientes de RGB:
+		| <style="parâmetro: rgb(0-255,0-255,0-255);"
+		| Red, Green ou Blue em escala vão de 0 a 255
+
+	1.4 por características de matiz de cores:
+		| <style:"parâmetro: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);"
+		| hsl {hue, saturação e luminosidade} 
+
+	1.5 por Gradiente de cor, TRANSPARÊNCIA e ton 
+		| na lousa quando você passa o mouse por cima da referencia de cor no código.
+
+	
+
+
+	
+	
+
