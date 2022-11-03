@@ -140,7 +140,7 @@ CURSO EM VÍDEO
 		| use <background-image: linear-gradiente(to "atribute: bottom, top, left, right", color01, color02);>"
 		| use o <background-attachment: fixed;> caso a tela fique rolando	
 		| experimente trocar <to bottom> por graus <45deg>
-		|substitua <linear-gradiente> por radi
+		| substitua <linear-gradiente> por <radius-gradient>
 
 		
 
