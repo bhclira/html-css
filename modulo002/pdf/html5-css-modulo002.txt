@@ -19,7 +19,7 @@ CURSO EM VÍDEO
 	* rosa: produtos femininos e cosmética.
 	* roxos: não prendem muito a atenção, usado com coisas inovadoras e criativas
 
-2. Repressentando cores com CSS3
+2. Representando cores com CSS3
 
 	1.1 por nome:
 		| <style="parametro: nome-da-cor">
@@ -40,6 +40,123 @@ CURSO EM VÍDEO
 		| na lousa quando você passa o mouse por cima da referencia de cor no código.
 
 	
+3. Harmonização de Cores (Design)
+
+	3.1 Círculo Cromático (fonte: google imagens)
+		| foco: entender harmonia entre cores
+		| Criar comodidade visual com simetria ou cor
+		| cores primárias: amarelo, vermelho e o azul
+		| cores secundárias: laranja, violeta e verde
+		| cores terciarias: mistura de primária com secundária
+			exemplos:
+				* amarelo-esverdeado
+				* amarelo-alaranjado
+				* vermelho alaranjado
+				* vermelho arroxeado
+				* azul-arroxeado
+				* azul-esverdeado
+				* ... conhecidas como: tons pastéis.
+
+	3.2 Temperatura de Cores
+		| dividir com uma reta o círculo cromático entre as cores 
+			<amarelo e amarelo-esverdeado> e também entre o 
+			<violeta e o vermelho-arroxeado>, criando um hemisfério. 
+		
+		* cores quentes: tudo o que ficará do ldo esquerdo são frias
+		* cores frias: tudo o que fica  esquerda desse hemisfério são quentes
+
+4. Paleta de Cores
+	| desconsiderando branco e preto, uma paleta tem no máximo entre 3 e 5 cores
+	| se seu cliente tem uma logomarca, qual a cor primária da logo dele
+	| crie uma paleta de 4 cores abaixo: 2 complementares + 2 análogas
+	
+	4.1 Cores complementares (contraste):
+		| cores que tem mais contraste entre si
+		| seria a cor diametralmente oposta
+		| podendo ser usadas com letras e fundos para melhor visualização
+ 
+	4.2 Cores análogas (harmonizar):
+		| cores que não tem contraste grande mas sao perceptíveis
+		| são as cores imediatamente vizinhas às cores principais
+
+	4.3 cores análogas relacionadas (degradê):
+		| cria degradé mas nao cria contraste
+		| pegue duas cores colada na outra, pule uma cor e pegue a terceira cor
+			com um certo contraste
+		| pode ser tanto pra um lado do círculo quanto pro outro 
+
+	4.4 Cores intercaladas (contraste maior):
+		| escolha uma cor matriz, pule uma e pegue a proxima, repita.
+		| pode girar pra qualquer lado
+	
+	4.5 Cores triádicas:
+		| pule 3 e pegue a proxima, repita
+		| no círculo forma um triângulo equilátero
+
+	4.6 Cores em quadrado:
+		| pule duas ao invés de 3
+		| forma um quadrado no círculo cromático
+
+	4.7 Cores Tetrádicas:
+		| escolha uma cor e ache seu complementar, repita com a cor 
+			simetrica horizontalmente
+		| no círculo fica com aspecto de um retângulo com 4 cores
+
+	4.8 Monocromia:
+		| Pegue uma cor e modifique a saturação e luminosidade
+		| hsl no próprio HTML você pode gerar mais 3 cores derivadas da matriz
+			apenas alterando o <s> e o <l>
+
+5. Aula prática
+	| abrir o site adobe cores (salvo no favoritos)
+	| aprender a usar o adobe cores
+	| abrir o serviço Paletton.com e idem
+	| abrir o serviço coolors e idem
+
+6. Capturando Cores
+	6.1 Jeito Não-Usual (errado)
+		| capture tela com paleta desejada
+		| abrir imagem com Gimp
+		| usar ferramenta conta-gotas
+
+	6.2 Jeito OK (CollorZilla for Chrome)
+		| abrir loja de extensões do chrome
+		| procurar e instalar collorzilla
+		| use a pinça da extensão nas cores desejadas
+
+7. Cores em CSS
+
+	7.1 Criando degradê
+		| crie documento no projeto ex12 chamado cores02.hmtl
+		| crie uma linha <style>
+		| implemente a função <background-image> com <gradient-linear>
+		| escolha cores
+		| caso precise, crie uma config global de css < * {heigth: 100%;}
+
+	7.2 Criando degradê a partir do Adobe Colors
+		| abra o adobe images
+		| selecione monocromático
+		| capture as cores desejadas na paleta
+		| use <background-image: linear-gradiente(to "atribute: bottom, top, left, right", color01, color02);>"
+		| use o <background-attachment: fixed;> caso a tela fique rolando	
+		| experimente trocar <to bottom> por graus <45deg>
+		|substitua <linear-gradiente> por radi
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	
