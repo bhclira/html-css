@@ -141,6 +141,87 @@ CURSO EM VÍDEO
 		| use o <background-attachment: fixed;> caso a tela fique rolando	
 		| experimente trocar <to bottom> por graus <45deg>
 		| substitua <linear-gradiente> por <radius-gradient>
+'	
+
+8. Tipografias (letras)
+
+	| conceito:
+	| termo surgiu com o início da imprensa: tipógrafo (1450) por Johannes Gutenberg
+	| monges copistas ou amanuense (copiador de livros)
+	| typos(impressão) + grafia (escrita) necessidade de criar letras mais legiveis para os tipógrafos
+	| a forma de escrver também transmite emoções
+
+	8.1 Anatomia dos Tipos:
+
+		8.11 itens métricos
+
+			| a letra x minúscula é excrita primeira e define a altura base
+			de todas as demais minúsculas
+			| altura das maiúsculas
+			| espaço de vazamento ascendente: diferença entre a altura do ponto
+			mais alto das minúsculas e a altura das maiúsculas da fonte
+			| espaço descendente: espaços de escape das caudas das letras
+			| corpo: a altua total que engloba todas as demais listadas acima
+		
+	
+		8.12 itens anatômicos de um glifo(letra)
+
+			| serifa: pequeno traço nas letras de determinadas fontes
+				cria uma linha imaginária que nosso cerebro percebe e facilita a leitura das palavras
+				facilita a leitura pelo cerebro
+			
+			| haste: são os pilares das fontes
+			| filete: une duas astes ou duas haste ou arcos
+			| arco: ligação sinuosa entre hastes
+			| esporão: forma um pedículo na base de algumas fontes
+			| vértice: 
+			| terminal: elemento nao preso em algum lugar
+			| braço: sai de uma haste e se leva pra cima
+			| perna: sai de uma haste e se leva pra baixo
+			| pé: base que segura a fonte
+			| espinha: curvas do s
+			| barriga: 
+			| olho: buracos nas letras
+			| orelha:
+			| cauda: parte descendente de algumas letras
+
+			glifos, caratcteres ou letras . o conjunto delas é uma fonte
+		
+		
+		8.3 Família tipográfica:
+			| light, normal, seminegrito, negrito, extranegrito
+			| nem toda fonte tem famílias tipográfica
+
+		8.4 Categoria de Fontes:
+			| serifada: tem serifa
+			| sans-serif: sem serif em francês
+				textos longos em telas
+				cor complementar (branco com preto)
+			| monoespaçada: glifos com o mesmo espaçamento lateral
+			| hadwriting: fonte "scriptada" simula caligrafia humana
+			| fontes display: comemorativas. nao obedece a regras anatômicas
+
+	9. Tamanhos de fonte (w3c recomendations)
+		| fontes padrao do HTML: times new roman
+		| arial: nao serifada
+		| corrier new: serifada e monoespaçada
+		| conceito de safe-font e site w3c
+
+		9.1 medidas absolutas:
+            | cm, nm, in, px, pt, pc (ponto e paica nao se utiliza em telas)
+            
+		9.2 medidas relativas
+		| em(m maiusculo), ex(), rem(relatico ao root), vw(), vh(altura da view port)
+ 			use medidas em pixel e EM
+		| geralmente fonte normal é 16px
+		| 16px geralmente é igual a um EM
+		
+		| usar EM é sempre melhor pra diferentes telas
+			devido ao porcentagem de 1EM
+	
+		
+ 
+
 
 		
 
