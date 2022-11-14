@@ -218,6 +218,58 @@ CURSO EM VÍDEO
 		
 		| usar EM é sempre melhor pra diferentes telas
 			devido ao porcentagem de 1EM
+
+10. Peso e Estilo de Fonte
+	| peso = fonte mais magra ou gordinha <font-height>
+	---
+	| <font-family: Work Sans, sans-serif;> instala a fonte na linha acima
+	| <font-weight: ;> /* lighter normal bold bolder ou
+					 numeração de 100 a 900, de 100 em 100 */
+	
+	| <font-style: italic;> negrito ou italico
+	| <text-decoration: underline;
+	| 
+		use shorthand font no seu código:
+		forma: <font-style -> font-weight -> font-size -> font-family>
+		sintaxe: <font: italic bolder 3em 'Work Sans', sans-serif;>
+	
+	10.1 Usando o Google Fonts
+		| famílias de fontes externas
+		| embed fonts no seu código pelo google fonts
+			sintaxe <@import ...>
+		| adicionando fontes compradas no codigo ou externas
+			site: dafont.com
+			| verificar se existem os glifos acentuados
+			| baixar arquivo ttf e incluir no projeto
+			| crie um font-face na tag style do seu código
+				<@font-face {
+					font-family: ;
+					src: url('nome do arquivo.ttf ou otf ou *tipos de format');>
+
+ 		/*
+            tipos de format ()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-att (apple advanced typography)
+            -svg 
+            */
+
+	10.2 Capturando Fontes de Sites Aleatórios
+		| extensão do google chrome
+		| Instale o plugin Fonts Ninja
+		| Execute no site desejado
+		| repita os passos do google fonts com a fonte encontrada
+
+	10.3  Detecção de fontes dentro de imagens
+		| salve a imagem
+		| arraste para um dos sites sugeridos
+			<whatfontis; fontsquirrel; myfonts>
+
+	10.4 Alinhamento de Texto com Folhas de Estilo
+		| <text-align: center, right, left(default), justify>
+		| <text-indent: 30px> (parágrafo tabulado)
+
 	
 		
  
