@@ -20,5 +20,25 @@ h1#principal {
     color: white;
 }
 h2 {
-    color: rgb(73, 109, 71);
+    color: rgb(110, 111, 47);
+}
+
+.basico {
+    color: rgb(44, 127, 28);
+    font-weight: bold;
+
+}
+
+.intermediario {
+    color: rgb(164, 164, 15);
+
+}
+
+.avancado {
+    color:red;
+
+}
+
+.destaque {
+    background-color: rgba(197, 197, 96, 0.438);
 }
