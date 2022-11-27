@@ -270,8 +270,58 @@ CURSO EM VÍDEO
 		| <text-align: center, right, left(default), justify>
 		| <text-indent: 30px> (parágrafo tabulado)
 
-	
+15. Identificadores em CSS
+
+	em HTML é id = em CSS é # (só pode um elemento)
+	em HTML é class = em CSS é . (pode vários elementos)
+
+		limitação: so pode colocar ID em 1 elemento por CSS
+
+15.2 Classes em CSS
+
+	| hierarquia manda h1 e h1#principal a ultima sobrepõe e herda da classe anterior (herança)
+	| nao dê nomes as suas classes pela forma e sim pelo significado
+		ex. class="verde" está errado
+	| você pode envelopar <ctrl + shift + p> com a tag <span> algum trecho de texto
+		e atribuir a uma class "básico" por exemplo para lhe atribuir as características
+			da classe
+	| você pode usar mais de uma classe para uma mesma tag. ex: <h2 class="avancado destaque">
+	| você pode usar num mesmo elemento uma class e um ID	
+
+15.3 Pseudo-classes e Pseudo-elementos
+
+	| pseudoclasse tem que estar relacionadas a um elemento ou uma class
+	| sintaxe < :nomedapseudoclasse >
+	| sao relacionados ao ESTADO de um determinado elemento
+		ex. passando o mouse por cima muda de cor <div:hover {}>
+
+	| utilize o simbolo > para designar uma class filha:
+		ex. "div > p" = parágrafo dentro da div
+
+15.4 Pseudo-element
+
+	| ele mexe no conteúdo periférico dos elementos: das classes, id, pseudo 
+	| ex. acrescentar algo após o link do html, na aba <style> digite: 
 		
+		a::after {
+            	content: ' [link]';
+           		color: darkgray;
+           		font-weight: lighter;
+           		text-decoration: none;
+     		}
+			<acrescenta [link] após o link para informar do que se trata>
+
+	| a sintaxe do pseudoelemento se dá por dois pontos duas vezes <a::propriedade {}>
+
+	resumo: SELETORES PERSONALIZADOS
+
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = children
+  
+
  
 
 
