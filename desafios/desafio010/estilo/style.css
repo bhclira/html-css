@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+body {
+    background-color: #c5ebd6;
+}
 body > header {
     background-color: rgb(26, 92, 56);
 }
@@ -41,6 +44,45 @@ main {
     background-color: rgb(95, 202, 131);
 }
 
-main > article {
-    border: 20px 20px 20px 20px;
+
+.container {
+    background-color:rgb(255, 255, 255);
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    padding: 10px;
+    height: auto;
+    position: relative;   
 }
+body > main > article > #principal {
+
+}
+
+main > article > p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main > article > img {
+    width: 100%;
+}
+
+main > article > picture {
+    width: 100%;
+}
+
+main > article > iframe {
+    background-color:  rgb(26, 92, 56);
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+body > main > footer {
+    background-color: rgb(26, 92, 56);
+    font-weight:lighter;
+    color: aliceblue;
+    text-align: center; 
+}
+
